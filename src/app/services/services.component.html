@@ -1,29 +1,32 @@
 <app-navbar></app-navbar>
 <body>
+  <br>
+          <section id="services" class="services">
       <div class="container">
-				<div class="row mb-4">
-					<div class="col-md-12">
-						<br>
-						<h2 class="heading-section">Services</h2>
-					</div>
-				</div>
-			<div class="row">
-				<div class="col-md-3 mb-3">
-					<button type="button" class="btn btn-primary w-100 align-items-stretch d-flex" routerLink="/pathology" style="background-color: #e5243b;">
-						<div class="text">
-						<img  src="assets/pathology.png" class="rounded mx-auto d-flex" alt="...">
-						<span>Pathology</span>
-					</div>
-					</button>
-				</div>
-					<div class="col-md-3 mb-3">
-						<button type="button" class="btn btn-primary w-100 align-items-stretch d-flex" routerLink="/radiology" style="background-color: #DDA63A;">
-							<div class="text">
-							<img src="assets/radiology.png" class="rounded mx-auto d-flex" alt="...">
-							<span>Radiology</span>
-						</div>
-						</button>
-					</div>
-					</div>
-					</div>
+        <div class="section-title">
+          <h2>Services</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-medkit"></i></div>
+              <h4><a routerLink="/pathology">Pathology</a></h4>
+              <p>Variety of blood related tests.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-heartbeat"></i></div>
+              <h4><a routerLink="/radiology">Radiology</a></h4>
+              <p>Variety of body parts scan.</p>
+            </div>
+          </div>
+
+           </div>
+      </div>
+          </section>
+
 </body>
