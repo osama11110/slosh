@@ -1,0 +1,35 @@
+.btn-primary
+{
+  color:black;
+  border-color: #e7e7e7;
+  padding: 12px 28px;
+  transition-duration: 0.4s;
+  height:130px
+}
+
+img {
+    text-align: center;
+    width: 75px;
+}
+.text
+{
+  text-align:center;
+  margin: auto;
+
+}
+.heading-section
+{
+  background-color: #1D1B7D;
+  width:75px;
+  color:white;
+  font-size: 100%;
+}
+
+.btn-primary:hover {
+  background-color: 	#E8E8E8;
+}
+body{
+  height: 650px;
+  background-image: url('../../assets/slosh.jpg') ;
+  background-size: cover;
+}

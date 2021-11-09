@@ -1,0 +1,27 @@
+.btn-primary
+{
+  background-color: whitesmoke;
+  color:black;
+  border-color: #e7e7e7;
+  transition-duration: 0.4s;
+}
+
+img {
+    text-align: center;
+    width: 75px;
+}
+.text
+{
+  text-align:center;
+
+}
+.heading-section
+{
+  background-color: #1D1B7D;
+  width:75px;
+  color:white;
+  font-size: 100%;
+}
+.btn-primary:hover {
+  background-color: 	#E8E8E8;
+}
