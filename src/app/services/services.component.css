@@ -41,7 +41,8 @@ body{
   border: 1px solid #d5e1ed;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  width : 400px;
+  width : 250px;
+  height : 250px;
   box-shadow: 0 0 10px #000;
    outline: none;
    border-top-style: hidden;

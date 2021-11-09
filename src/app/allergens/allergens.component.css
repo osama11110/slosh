@@ -15,3 +15,12 @@
   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+body{
+  height: auto;
+  background-image: url('../../assets/path.jpg') ;
+  background-size: cover;
+}
+h2
+{
+  color: whitesmoke
+}
