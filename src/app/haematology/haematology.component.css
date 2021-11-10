@@ -10,9 +10,18 @@
 }
 .card{
   height: 15rem;
-  color:white;
-  background: #1A2980;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:black;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+body{
+  height: auto;
+  background-image: url('../../assets/path.jpg') ;
+  background-size: cover;
+}
+h2
+{
+  color: whitesmoke
 }

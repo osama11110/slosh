@@ -24,17 +24,20 @@ img {
   text-align:center;
   margin: auto;
   font-weight: bold;
+
 }
 .heading-section
 {
-  background-color: #1D1B7D;
   width:75px;
   color:white;
-  font-size: 100%;
+  font-size: 40px;
+  color: #1977cc;
+
+
 }
 
 body{
-  height: 650px;
+  height: auto;
   background-image: url('../../assets/slosh.jpg') ;
   background-size: cover;
 }

@@ -27,7 +27,7 @@ body {
 .box input[type="text"],
 .box input[type="password"] {
     border: 0;
-    background: none;
+    background-color: rgba(0, 0, 0, 0.5);
     display: block;
     margin: 20px auto;
     text-align: center;
@@ -35,7 +35,6 @@ body {
     padding: 10px 10px;
     width: 250px;
     outline: none;
-    color: whitesmoke;
     border-radius: 24px;
     transition: 0.25s
 }
@@ -49,7 +48,8 @@ body {
 .box input[type="text"]:focus,
 .box input[type="password"]:focus {
     width: 300px;
-    border-color: #2ecc71
+
+    border-color: #2ecc71;
 }
 
 .box input[type="submit"] {
@@ -68,7 +68,7 @@ body {
 }
 
 .box input[type="submit"]:hover {
-    background: #6699FF
+    background:#1977cc;
 
 }
 
@@ -143,4 +143,16 @@ body{
   height: 650px;
   background-image: url('../../assets/slosh.jpg') ;
   background-size: cover;
+}
+p
+{
+  color: whitesmoke;
+}
+a
+{
+  color:whitesmoke;
+}
+.box input[type="text"]
+{
+  color:white;
 }

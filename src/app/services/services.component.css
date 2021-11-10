@@ -110,17 +110,19 @@ body{
 }
 h2
 {
-  color : #1977cc;
-text-align: center;
-font-size: 90px;
-background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height:110px;
-width :1000px
+  color : white;
+text-align: left;
+font-size: 60px;
+height:70px;
+width :170px;
+color: #1977cc;
+
+
+
 }
 p
 {
-  color:whitesmoke  ;
+  color:black ;
   font-style: italic;
+  font-weight:
 }
