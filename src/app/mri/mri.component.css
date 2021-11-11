@@ -20,3 +20,12 @@ h3
   margin:auto;
   text-align:center;
 }
+body{
+  height: auto;
+  background-image: url('../../assets/rad.jpg') ;
+  background-size: cover;
+}
+h2
+{
+  color: whitesmoke
+}
