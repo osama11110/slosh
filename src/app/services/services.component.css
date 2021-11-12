@@ -116,6 +116,7 @@ font-size: 60px;
 height:70px;
 width :170px;
 color: #1977cc;
+font-weight: bolder;
 
 
 
@@ -125,4 +126,8 @@ p
   color:black ;
   font-style: italic;
   font-weight:
+}
+a
+{
+  font-size: 35px;
 }

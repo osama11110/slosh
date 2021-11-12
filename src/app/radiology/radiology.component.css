@@ -15,9 +15,10 @@ img {
 }
 .text
 {
+  font-weight: bold;
   text-align:center;
   margin: auto;
-  font-weight: bold;
+  font-size: 20px;
 }
 .heading-section
 {

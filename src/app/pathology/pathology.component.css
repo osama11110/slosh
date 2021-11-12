@@ -4,8 +4,8 @@
   border-color: #e7e7e7;
   padding: 12px 28px;
   transition-duration: 0.4s;
-  height:130px;
-  opacity: 0.8;
+  height:150px;
+  opacity: 0.9;
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
@@ -21,10 +21,10 @@ img {
 }
 .text
 {
+  font-weight: bold;
   text-align:center;
   margin: auto;
-  font-weight: bold;
-
+  font-size: 20px;
 }
 .heading-section
 {

@@ -32,6 +32,7 @@ import { XrayComponent } from './xray/xray.component';
 import { CtscanComponent } from './ctscan/ctscan.component';
 import { MriComponent } from './mri/mri.component';
 import { UltrasoundComponent } from './ultrasound/ultrasound.component';
+import { CartComponent } from './cart/cart.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent},
@@ -56,6 +57,7 @@ const appRoutes: Routes = [
   { path: 'ctscan', component: CtscanComponent},
   { path: 'mri', component: MriComponent},
   { path: 'ultrasound', component: UltrasoundComponent},
+  { path: 'cart', component: CartComponent},
   { path: '', redirectTo:'/login', pathMatch: 'full'}
 
 ];
@@ -85,7 +87,8 @@ const appRoutes: Routes = [
     XrayComponent,
     CtscanComponent,
     MriComponent,
-    UltrasoundComponent
+    UltrasoundComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
