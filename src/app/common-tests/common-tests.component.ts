@@ -10,21 +10,17 @@ import { Package } from "../package.model";
 })
 export class CommonTestsComponent implements OnInit {
   commontestsPackage: Package[] = [];
-  cartPackage: Package[] = [];
+
   constructor(private packageService: PackageService) { }
 
 
   ngOnInit(): void {
     this.commontestsPackage = this.packageService.getItems();
   }
-  addToCart(item: Package)
-  {
-      this.cartPackage.push(item);
+  add(item: Package) {
+    this.packageService.addToCart(item);
+    window.alert('Your product has been added to the cart!');
   }
 
-  checkOut()
-  {
-    this.packageService.setItems(this.cartPackage);
-  }
 
 }

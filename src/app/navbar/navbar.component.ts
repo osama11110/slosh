@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PackageService } from "../package.service";
+import { Package } from "../package.model";
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+   items = this.cartService.getcartItems();
+   constructor(
+    private cartService: PackageService)
+   { }
 
-  ngOnInit(): void {
+  ngOnInit(): void{
+    // this.cart = this.cartService.clearCart();
+  }
+
+  emptyCart(){
+  this.cartService.clearCart();
   }
 
 }

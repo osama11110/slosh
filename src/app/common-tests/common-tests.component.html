@@ -7,25 +7,38 @@
       <h2 class="heading-section">Common Tests</h2>
     </div>
   </div>
+<!-- <div class="row">
+<div class="col-md-3 mb-3">
+<div class="card  mb-3" style="max-width: 20rem;" *ngFor="let a of commontestsPackage"  >
+  <div class="card-body">
+    <h5 class="card-title">{{a.commonTests.packageName}}</h5>
+    <p class="card-text">{{a.packageDesc}}</p>
+    <a class="btn btn-primary" (click)="addToCart(a)">Add to Cart</a>
+  </div>
+</div>
+</div> -->
+
+
 <div class="row">
 <div class="col-md-3 mb-3">
-<div class="card  mb-3" style="max-width: 20rem;" *ngIf="let commontests of commontestsPackage" >
-  <div class="card-body" >
-    <h5 class="card-title">{{commontests.packageName}}</h5>
-    <p class="card-text">A fasting plasma glucose test or fasting glucose test (FGT), is a test that can be used to help diagnose diabetes or pre-diabetes.</p>
-    <a href="#" class="btn btn-primary" (click)="addToCart(commontests)">Add to Cart</a>
+<div class="card  mb-3" style="max-width: 20rem;" *ngFor="let a of commontestsPackage"  >
+  <div class="card-body">
+    <h5 class="card-title">{{a.packageName}}</h5>
+    <p class="card-text">{{a.packageDesc}}</p>
+    <a class="btn btn-primary" (click)="add(a)">Add to Cart</a>
   </div>
 </div>
 </div>
 <div class="col-md-3 mb-3">
-<div class="card   mb-3" style="max-width: 20rem;">
+<div class="card  mb-3" style="max-width: 20rem;" *ngFor="let a of commontestsPackage"  >
   <div class="card-body">
     <h5 class="card-title">Complete blood Picture</h5>
     <p class="card-text">CBP is a blood test used to evaluate your overall health and detect a wide range of disorders.</p>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
+    <a class="btn btn-primary" (click)="add(a)">Add to Cart</a>
   </div>
 </div>
+</div>
+
 <div class="col-md-3 mb-3">
 <div class="card   mb-3" style="max-width: 20rem;">
   <div class="card-body">
@@ -166,4 +179,5 @@
 
 </div>
 </div>
+
 </body>

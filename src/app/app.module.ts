@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { tsParticles } from "tsparticles";
 import {NgParticlesModule} from "ng-particles";
+import { PackageService } from "./package.service";
 
 
 import { Routes, RouterModule } from "@angular/router";
@@ -98,7 +99,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
 
   ],
-  providers: [],
+  providers: [PackageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

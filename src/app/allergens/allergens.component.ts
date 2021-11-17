@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PackageService } from "../package.service";
+import { Package } from "../package.model";
 
 @Component({
   selector: 'app-allergens',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllergensComponent implements OnInit {
 
-  constructor() { }
+  allergensPackage: Package[] = [];
+
+  constructor(private packageService: PackageService) { }
+
 
   ngOnInit(): void {
+    this.allergensPackage = this.packageService.getItems();
   }
-
+  addToCart(item: Package) {
+    this.packageService.addToCart(item);
+    window.alert('Your product has been added to the cart!');
+  }
 }
