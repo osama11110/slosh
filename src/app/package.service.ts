@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Package } from "./package.model";
+import { Router } from '@angular/router';
 
 @Injectable()
 
@@ -46,7 +47,7 @@ export class PackageService
     public count = 0;
     private cartItem: Package[] = [];
 
-    constructor(){}
+    constructor(private router: Router){}
 
     getItems()
     {
@@ -62,6 +63,8 @@ export class PackageService
     }
     clearCart() {
     this.cartItem = [];
+    this.count=0;
+
   }
   addToCart(item: Package)
   {

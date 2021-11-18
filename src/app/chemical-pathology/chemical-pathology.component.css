@@ -1,20 +1,26 @@
 .btn-primary
 {
   background-color: whitesmoke;
-  color:black;
+  color:white;
   border-color: #e7e7e7;
   transition-duration: 0.4s;
-}
-.btn-primary:hover {
-  background-color: 	#C8C8C8;
-}
-.card{
-  height: 15rem;
-  color:black;
   background: #3CA55C;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.btn-primary:hover {
+  background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card{
+  height: 15rem;
+  color:black;
+  background-color: white;
+  opacity: 0.95;
+  font-weight: 470;
 }
 
 body{

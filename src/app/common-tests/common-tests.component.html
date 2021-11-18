@@ -11,9 +11,9 @@
 <div class="col-md-3 mb-3">
 <div class="card  mb-3" style="max-width: 20rem;" *ngFor="let a of commontestsPackage"  >
   <div class="card-body">
-    <h5 class="card-title">{{a.commonTests.packageName}}</h5>
+    <h5 class="card-title">{{a.packageName}}</h5>
     <p class="card-text">{{a.packageDesc}}</p>
-    <a class="btn btn-primary" (click)="addToCart(a)">Add to Cart</a>
+    <a class="btn btn-primary" (click)="add(a)">Add to Cart</a>
   </div>
 </div>
 </div> -->

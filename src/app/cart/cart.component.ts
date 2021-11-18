@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PackageService } from "../package.service";
 import { Package } from "../package.model";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
@@ -11,7 +12,7 @@ export class CartComponent implements OnInit {
   cart: any;
    items = this.cartService.getcartItems();
    constructor(
-    private cartService: PackageService)
+    private cartService: PackageService, private router: Router)
    { }
 
   ngOnInit(): void{
@@ -19,6 +20,10 @@ export class CartComponent implements OnInit {
 
   emptyCart(): void {
   this.cartService.clearCart();
+  let currentUrl = this.router.url;
+      this.router.navigateByUrl('/', {skipLocationChange: true}).then(() => {
+          this.router.navigate([currentUrl]);
+      });
   }
 
 }

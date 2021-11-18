@@ -123,9 +123,11 @@ font-weight: bolder;
 }
 p
 {
+  font-size: 100px;
   color:black ;
   font-style: italic;
-  font-weight:
+  font-weight:500;
+
 }
 a
 {
