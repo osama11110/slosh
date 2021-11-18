@@ -15,9 +15,9 @@ export class AllergensComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.allergensPackage = this.packageService.getItems();
+    this.allergensPackage = this.packageService.getallergenItems();
   }
-  addToCart(item: Package) {
+  add(item: Package) {
     this.packageService.addToCart(item);
     window.alert('Your product has been added to the cart!');
   }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PackageService } from "../package.service";
 import { Package } from "../package.model";
-import { Router } from '@angular/router';
+
 
 
 @Component({
@@ -17,7 +17,7 @@ export class CommonTestsComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.commontestsPackage = this.packageService.getItems();
+    this.commontestsPackage = this.packageService.getcommonItems();
   }
   add(item: Package) {
     this.packageService.addToCart(item);

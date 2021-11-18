@@ -8,12 +8,12 @@
     </div>
   </div>
 <div class="row">
-    <div class="col-md-3 mb-3">
+    <div class="col-md-3 mb-3" *ngFor="let a of chemicalPackage">
     <div class="card  border-secondary mb-3" style="max-width: 20rem;">
       <div class="card-body">
-        <h5 class="card-title">Urea and Electrolytes Test</h5>
-        <p class="card-text">They provide essential information on renal function, principally in excretion and homoeostasis.</p>
-        <a href="#" class="btn btn-primary">Add to Cart</a>
+        <h5 class="card-title">{{a.packageName}}</h5>
+        <p class="card-text">{{a.packageDesc}}</p>
+        <a class="btn btn-primary"  (click)="add(a)" >Add to Cart</a>
     </div>
     </div>
 </div>
