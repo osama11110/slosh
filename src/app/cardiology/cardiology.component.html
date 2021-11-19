@@ -8,12 +8,12 @@
     </div>
   </div>
 <div class="row">
-  <div class="col-md-3 mb-3">
+  <div class="col-md-3 mb-3" *ngFor="let a of cardiologyPackage">
   <div class="card border-secondary mb-3" style="max-width: 20rem;">
     <div class="card-body">
-      <h5 class="card-title">12 lead ECG -16+</h5>
-      <p class="card-text">The ECG to assess your heart rhythm, diagnose poor blood flow to the heart muscle (ischemia), diagnose a heart attack, and diagnose abnormalities of your heart, such as heart chamber enlargement and abnormal electrical conduction.</p>
-      <a href="#" class="btn btn-primary">Book Test</a>
+      <h5 class="card-title">{{a.packageName}}</h5>
+      <p class="card-text">{{a.packageDesc}}</p>
+      <a class="btn btn-primary" (click)="add(a)">Book Test</a>
     </div>
     </div>
   </div>

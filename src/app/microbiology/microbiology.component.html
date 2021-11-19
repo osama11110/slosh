@@ -8,52 +8,15 @@
     </div>
   </div>
 <div class="row">
-  <div class="col-md-3 mb-3">
+  <div class="col-md-3 mb-3" *ngFor="let a of microbiologyPackage">
   <div class="card border-secondary mb-3" style="max-width: 20rem;">
     <div class="card-body">
-      <h5 class="card-title">Rheumatoid Factor Test</h5>
-      <p class="card-text">Measures the amount of rheumatoid factor in your blood, proteins produced by your immune system.</p>
-      <a href="#" class="btn btn-primary">Add to Cart</a>
+      <h5 class="card-title">{{a.packageName}}</h5>
+      <p class="card-text">{{a.packageDesc}}</p>
+      <a class="btn btn-primary"  (click)="add(a)">Add to Cart</a>
     </div>
     </div>
   </div>
-    <div class="col-md-3 mb-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-body">
-        <h5 class="card-title">Liver Antibody Screen</h5>
-        <p class="card-text">It is an autoantibody test that identifies some of the important antibodies responsible for autoimmune liver disease. </p>
-        <a href="#" class="btn btn-primary">Add to Cart</a>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-body">
-        <h5 class="card-title">Coeliac Disease Screen</h5>
-        <p class="card-text">Celiac disease blood tests measure the amount of particular antibodies in the blood. The most common tests include tTG. </p>
-        <a href="#" class="btn btn-primary">Add to Cart</a>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-body">
-        <h5 class="card-title">Thyroid Peroxidase Antibody Test</h5>
-        <p class="card-text">Thyroid peroxidase test is a test that measures the level of an antibody that is directed against thyroid peroxidase. </p>
-        <a href="#" class="btn btn-primary">Add to Cart</a>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-    <div class="card border-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-body">
-        <h5 class="card-title">ANA</h5>
-        <p class="card-text">The purpose of an antinuclear antibody test is to detect, measure, and evaluate antinuclear antibodies in a patient's blood sample. </p>
-        <a href="#" class="btn btn-primary">Add To Cart</a>
-      </div>
-      </div>
-    </div>
-
 
 </div>
 </div>
