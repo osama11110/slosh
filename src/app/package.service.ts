@@ -1039,6 +1039,257 @@ packagePrice: 500,
 packageDesc:'This test is used to measure levels of methanol in the body to see if you have a toxic level of methanol in your body.'
 }
 ];
+
+// Routine Chemical tests-------------------------------------------------------------------
+
+private routineItem: Package[]= [
+{
+packageId: 1,
+packageName: 'Urea and Electrolytes Test',
+packagePrice: 500,
+packageDesc:'They provide essential information on renal function, principally in excretion and homoeostasis.'
+},
+{
+packageId: 2,
+packageName: 'Liver Function Test',
+packagePrice: 500,
+packageDesc:'Liver function tests, also referred to as a hepatic panel, are groups of blood tests that provide information about the state of a patients liver.'
+},
+{
+packageId: 3,
+packageName: 'Bone Profile Test',
+packagePrice: 500,
+packageDesc:'A bone profile of blood tests helps to determine how well your bodys metabolic processes are affecting your skeleton.'
+},
+{
+packageId: 4,
+packageName: 'Lipids Test',
+packagePrice: 500,
+packageDesc:'A lipid panel is a blood test that measures lipids—fats and fatty substances used as a source of energy by your body.'
+},
+{
+packageId: 5,
+packageName: 'Lipids+HDL Test',
+packagePrice: 500,
+packageDesc:'An HDL cholesterol test measures the amount of cholesterol found inside high-density lipoproteins (HDL) in a sample of your blood.'
+},
+{
+packageId: 6,
+packageName: 'Glucose(plasma) Test',
+packagePrice: 500,
+packageDesc:'A fasting plasma glucose test or fasting glucose test (FGT), is a test that can be used to help diagnose diabetes or pre-diabetes.'
+},
+{
+packageId: 7,
+packageName: 'HbA1c',
+packagePrice: 500,
+packageDesc:'The hemoglobin A1c test also known as HbA1c tells you your average level of blood sugar over the past 2 to 3 months.'
+},
+{
+packageId: 8,
+packageName: 'Albumin (Random Urine)',
+packagePrice: 500,
+packageDesc:'This test determines if there is an abnormal amount of the protein albumin in a urine sample.'
+},
+{
+packageId: 9,
+packageName: 'Thyroid Function Test',
+packagePrice: 500,
+packageDesc:'Test used to tell if your thyroid gland is functioning properly by measuring the amount of thyroid hormones in your blood.'
+},
+{
+packageId: 9,
+packageName: 'Prostate Specific Antigen Test',
+packagePrice: 500,
+packageDesc:'This test is used to measure blood PSA levels and help detect prostate cancer or other prostate abnormalities.'
+},
+{
+packageId: 10,
+packageName: 'Vitamin B12 Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of vitamin B12 in the blood, body needs this B vitamin to make blood cells and maintain nervous system.'
+},
+{
+packageId: 11,
+packageName: 'Folate Test',
+packagePrice: 500,
+packageDesc:'A folate test measures the amount of folic acid in the blood. Folic acid is vitamin B-9, which is essential for normal growth.'
+},
+{
+packageId: 12,
+packageName: 'Iron/Fe Test',
+packagePrice: 500,
+packageDesc:'A ferritin blood test measures the level of ferritin in your blood. Ferritin is a protein that stores iron inside your cells.'
+},
+{
+packageId: 13,
+packageName: 'Amylaze Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of amylase in a persons blood. Abnormal levels of amylase may indicate problem with the pancreas.'
+},
+{
+packageId: 14,
+packageName: 'Gamma GT',
+packagePrice: 500,
+packageDesc:'This test measures the amount of the enzyme GGT in your blood, may also used to determine the cause of elevated AP.'
+},
+{
+packageId: 15,
+packageName: 'Creatine kinase',
+packagePrice: 500,
+packageDesc:'This test measures the amount of creatine kinase in the blood. High levels can indicate damage or disease of the skeletal muscles.'
+},
+{
+packageId: 16,
+packageName: 'Creatine kinase',
+packagePrice: 500,
+packageDesc:'This test measures the amount of creatine kinase in the blood. High levels can indicate damage or disease of the skeletal muscles.'
+},
+{
+packageId: 17,
+packageName: 'Magnesium Test',
+packagePrice: 500,
+packageDesc:'Magnesium blood test is used to check the level of magnesium in your blood. Levels that are too low are known as hypomagnesemia.'
+},
+{
+packageId: 18,
+packageName: 'Urine/Uric Acid Test',
+packagePrice: 500,
+packageDesc:'Urine/Uric acid test measures the levels of uric acid you have in your blood. Samples are taken in the form of urine or blood.'
+},
+{
+packageId: 19,
+packageName: 'Cholesterol Test',
+packagePrice: 500,
+packageDesc:'Colesterol test is a blood test that measures the amount of each type of cholesterol and certain  types of fats in your blood.'
+},
+{
+packageId: 20,
+packageName: 'NT - pro BNP Test',
+packagePrice: 500,
+packageDesc:'The NT-proBNP blood test measures brain natriuretic peptide to detect heart failure, NT-proBNP are protiens made by the heart.'
+},
+{
+packageId: 21,
+packageName: 'Adjusted Calcium (Serum)',
+packagePrice: 500,
+packageDesc:'This test measures the calcium value adjusted for the albumin concentration in the blood.'
+},
+{
+packageId: 22,
+packageName: 'Adjusted Calcium (Serum)',
+packagePrice: 500,
+packageDesc:'This test measures the calcium value adjusted for the albumin concentration in the blood.'
+},
+{
+packageId: 23,
+packageName: 'GTT',
+packagePrice: 500,
+packageDesc:'The glucose tolerance test is a test in which glucose is given and blood samples taken to determine how quickly it is cleared from the blood.'
+},
+{
+packageId: 24,
+packageName: 'HCG Test',
+packagePrice: 500,
+packageDesc:'The human chorionic gonadotropin (hCG) blood test measures the level of hCG hormone present in a sample of your blood.'
+},
+{
+packageId: 25,
+packageName: 'LH+FSH Test',
+packagePrice: 500,
+packageDesc:'FSH works closely with another hormone LH to control sexual functions.This test indicates damage of the testes or ovaries.'
+},
+{
+packageId: 26,
+packageName: 'Oestradiol Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of estradiol (E2), used to evaluate and diagnose the cause of precocious puberty in girls.'
+},
+{
+packageId: 27,
+packageName: 'Progesterone Test',
+packagePrice: 500,
+packageDesc:'A progesterone test measures the level of progesterone in your blood. Progesterone is a female hormone made by the ovaries.'
+},
+{
+packageId: 28,
+packageName: 'Prolactin Test',
+packagePrice: 500,
+packageDesc:'This test (PRL) measures how much of a hormone called prolactin you have in your blood. The hormone is made in your pituitary gland.'
+},
+{
+packageId: 29,
+packageName: 'Testosterone Test',
+packagePrice: 500,
+packageDesc:' In males, the testosterone test can help find the reason for sexual problems, like reduced sex drive or erectile dysfunction.'
+},
+{
+packageId: 30,
+packageName: 'Free Androgen Index Test',
+packagePrice: 500,
+packageDesc:'The Free Androgen Index (FAI) test gives an estimate of how much free testosterone is present in the blood.'
+},
+{
+packageId: 31,
+packageName: 'Carbamazepine Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of the medicine carbamazepine in your blood.It is a medicine used to treat epilepsy.'
+},
+{
+packageId: 32,
+packageName: 'Digoxin Test',
+packagePrice: 500,
+packageDesc:'A digoxin test checks how much digoxin you have in your blood. Digoxin is a type of medicine called a cardiac glycoside.'
+},
+{
+packageId: 33,
+packageName: 'Lipoprotein Test',
+packagePrice: 500,
+packageDesc:'A lipoprotein (a) test is used to check for risk of stroke, heart attack, or other heart diseases.Lipoproteins are made of protein and fat.'
+},
+{
+packageId: 34,
+packageName: 'Lithium Test',
+packagePrice: 500,
+packageDesc:'This test measures and monitors the amount of lithium in your blood. It is a medicine used to treat psychiatric illnesses.'
+},
+{
+packageId: 35,
+packageName: 'Phenobarbital Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of the phenobarbital in your blood. Phenobarbital is used to treat epilepsy in children and adults.'
+},
+{
+packageId: 36,
+packageName: 'Phenytoin Test',
+packagePrice: 500,
+packageDesc:'This test monitors the level of the seizure medicine phenytoin (Dilantin) in your blood.It is an anticonvulsant medicine to control seizures.'
+},
+{
+packageId: 37,
+packageName: 'Theophyllin Test',
+packagePrice: 500,
+packageDesc:'This test measures the level of theophylline in your blood. It is a chemical similar to caffeine, used as a medicine to treat lung conditions.'
+},
+{
+packageId: 38,
+packageName: 'CSF Test',
+packagePrice: 500,
+packageDesc:'This is a test to look at the fluid that surrounds the brain and spinal cord. CSF acts as a cushion, protecting the brain and spine from injury.'
+},
+{
+packageId: 39,
+packageName: 'Faecal Calprotectin Test',
+packagePrice: 500,
+packageDesc:'Faecal calprotectin testing helps clinicians distinguish between inflammatory bowel issues and non-inflammatory bowel issues.'
+},
+{
+packageId: 40,
+packageName: 'Osmolality Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of dissolved substances such as sodium, potassium etc in blood, urine or stool.'
+},
+];
     public count = 0;
     private cartItem: Package[] = [];
 
@@ -1084,6 +1335,10 @@ packageDesc:'This test is used to measure levels of methanol in the body to see 
     getotherItems()
     {
       return this.otherItem;
+    }
+    getroutineItems()
+    {
+      return this.routineItem;
     }
 
 
