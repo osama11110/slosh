@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PackageService } from "../package.service";
+import { Package } from "../package.model";
 
 @Component({
   selector: 'app-bacteriology',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BacteriologyComponent implements OnInit {
 
-  constructor() { }
+    bactPackage: Package[] = [];
 
-  ngOnInit(): void {
-  }
+    constructor(private packageService: PackageService) { }
 
+
+    ngOnInit(): void {
+      this.bactPackage = this.packageService.getbactItems();
+    }
+    add(item: Package) {
+      this.packageService.addToCart(item);
+      window.alert('Your product has been added to the cart!');
+    }
 }

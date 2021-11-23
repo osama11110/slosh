@@ -1290,6 +1290,321 @@ packagePrice: 500,
 packageDesc:'This test measures the amount of dissolved substances such as sodium, potassium etc in blood, urine or stool.'
 },
 ];
+
+// Urine tests-------------------------------------------------------------------
+
+private urineItem: Package[]= [
+{
+packageId: 1,
+packageName: 'Osmolality Test',
+packagePrice: 500,
+packageDesc:'This test measures the amount of dissolved substances such as sodium, potassium etc in blood, urine or stool.'
+},
+{
+packageId: 2,
+packageName: 'Calcium Test',
+packagePrice: 500,
+packageDesc:'A calcium blood test measures the amount of calcium in your blood. Optimal calcium levels are required for healthy bones.'
+},
+{
+packageId: 3,
+packageName: 'Creatinine Test',
+packagePrice: 500,
+packageDesc:'A creatinine urine test measures the amount of creatinine in your urine. This helps to determine your kidney health.'
+},
+{
+packageId: 4,
+packageName: 'Creatinine Clearence Test',
+packagePrice: 500,
+packageDesc:'Creatinine clearance test measures the amount of creatinine in a sample of pee collected over 24 hours.'
+},
+{
+packageId: 5,
+packageName: 'Magnesium Test (24 Hours)',
+packagePrice: 500,
+packageDesc:'Magnesium 24 hours test is used to check the level of magnesium in your pee collected over 24 hours.'
+},
+{
+packageId: 6,
+packageName: 'Oxalate Test (24 Hours)',
+packagePrice: 500,
+packageDesc:'That Oxalate Urine Test looks for the presence of certain toxic substances in the intestinal tract from pee collected over 24 hours.'
+},
+{
+packageId: 7,
+packageName: 'Phosphate Test (24 Hours)',
+packagePrice: 500,
+packageDesc:'The phosphate urine test measures the amount of phosphate in a sample of urine collected over 24 hours.'
+},
+{
+packageId: 8,
+packageName: 'Albumin (Random Urine)',
+packagePrice: 500,
+packageDesc:'This test determines if there is an abnormal amount of the protein albumin in a urine sample.'
+},
+{
+packageId: 9,
+packageName: 'Albumin (24 Hour)',
+packagePrice: 500,
+packageDesc:'This test determines if there is an abnormal amount of the protein albumin in a urine sample collected over 24 hours.'
+},
+{
+packageId: 10,
+packageName: 'Protein (24 Hour)',
+packagePrice: 500,
+packageDesc:'This test determines if there is an abnormal amount of the protein in a urine sample collected over 24 hours.'
+},
+{
+packageId: 11,
+packageName: 'Proteins/Creatinine ratio(random)',
+packagePrice: 500,
+packageDesc:' A protein and creatinine urine test, random measures the protein/creatinine ratio random untimed.'
+},
+{
+packageId: 12,
+packageName: 'Protein/Creat (24 Hour )',
+packagePrice: 500,
+packageDesc:'A Protein Total Urine Test, 24-Hour with Creatinine is used to monitor kidney function, and to detect kidney damage.'
+},
+{
+packageId: 12,
+packageName: 'Cortisol (24 Hour) ',
+packagePrice: 500,
+packageDesc:'This test measures the level of cortisol in the urine collected for over 24 hours. The cortisol level may show problems with the adrenal glands.'
+},
+{
+packageId: 13,
+packageName: 'Lead (24 Hour Urine) Test ',
+packagePrice: 500,
+packageDesc:'This test measures the lead levels in your urine collected for over 24 hours,excessive levels leads to lead poisoning.'
+},
+{
+packageId: 14,
+packageName: 'Mercury (24 Hour)',
+packagePrice: 500,
+packageDesc:'This test detects the presence of an excessive amount of mercury in a persons urine that is collected for over 24 hours.'
+},
+{
+packageId: 15,
+packageName: 'Porphyrins Random test',
+packagePrice: 500,
+packageDesc:'Porphyrin tests measure the level of porphyrins in urine. Porphyrins are chemicals that help make hemoglobin.'
+},
+{
+packageId: 16,
+packageName: 'Urate/Uric Acid Test (24 Hour)',
+packagePrice: 500,
+packageDesc:'Urate/Uric acid test measures the levels of uric acid you have in your urine collected for over 24 hours.'
+},
+{
+packageId: 17,
+packageName: 'Urate/Uric Acid Test (Random Urine)',
+packagePrice: 500,
+packageDesc:'Urate/Uric acid test measures the levels of uric acid you have in your urine smaples obtained.'
+},
+{
+packageId: 18,
+packageName: 'Urea and Electrolytes Test',
+packagePrice: 500,
+packageDesc:'They provide essential information on renal function, principally in excretion and homoeostasis.'
+},
+{
+packageId: 19,
+packageName: 'Copper Test (24 hours)',
+packagePrice: 500,
+packageDesc:'Copper Test 24 hours measures the total amount of copper in a urine sample collected for over 24 hours to find copper toxicity.'
+},
+{
+packageId: 20,
+packageName: 'Copper Test (Random Urine)',
+packagePrice: 500,
+packageDesc:'Copper Test random measures the total amount of copper in a urine sample to find copper toxicity.'
+},
+{
+packageId: 21,
+packageName: 'Catecholamine Test (24 Hours)',
+packagePrice: 500,
+packageDesc:'Catecholamine 24 hours test measures the total amount of catecholamines released into the urine in 24 hours.'
+},
+{
+packageId: 22,
+packageName: 'VMA Profile and Catecholamines Test',
+packagePrice: 500,
+packageDesc:'This test measures the Vanillylmandelic acid and other catecholamine metabolites like HVA in urine.'
+},
+];
+
+// Haemo tests-------------------------------------------------------------------
+
+private haemoItem: Package[]= [
+{
+packageId: 1,
+packageName: 'Full blood count',
+packagePrice: 500,
+packageDesc:'A complete blood count (CBC) is a blood test used to evaluate your overall health and detect a wide range of disorders.'
+},
+{
+packageId: 2,
+packageName: 'INR',
+packagePrice: 500,
+packageDesc:'The International Normalized Ratio test measures the time for the blood to clot. It is also known as prothrombin time or PT.'
+},
+{
+packageId: 3,
+packageName: 'Coagulation Screen Test',
+packagePrice: 500,
+packageDesc:'Coagulation tests measure your bloods ability to clot, proteins that are essential for blood clot formation.'
+},
+{
+packageId: 4,
+packageName: 'Plasma Screen Test',
+packagePrice: 500,
+packageDesc:'Plasma protein tests are blood tests that detect the amount of proteins in the blood. These tests are also known as a total protein test.'
+},
+{
+packageId: 5,
+packageName: 'Plasma Viscosity Test',
+packagePrice: 500,
+packageDesc:'Plasma viscosity test can be used as an indirect measure of the amount of protein present in the plasma (liquid) part of the blood.'
+},
+{
+packageId: 6,
+packageName: 'D-dimers',
+packagePrice: 500,
+packageDesc:'A D-dimer test looks for D-dimer in blood. D-dimer is a protein fragment (small piece) thats made when a blood clot dissolves in your body.'
+},
+{
+packageId: 7,
+packageName: 'MP Screen',
+packagePrice: 500,
+packageDesc:'The Malarial Parasite test helps to detect malaria antigens in the blood and to determine drug susceptibility of the parasite.'
+},
+{
+packageId: 8,
+packageName: 'Glandular Fever Test',
+packagePrice: 500,
+packageDesc:'This can be diagnosed with a simple blood test called a mono spot test. This will test for the Epstein-Barr virus, which causes glandular fever.'
+},
+{
+packageId: 9,
+packageName: 'Haemoglobinopathy Screen',
+packagePrice: 500,
+packageDesc:'This is a group of tests that determines the presence and relative amounts of abnormal forms of hemoglobin.'
+},
+{
+packageId: 10,
+packageName: 'G6PD Screen',
+packagePrice: 500,
+packageDesc:'The G6PD test is a blood test that measures how much of this enzyme glucose-6-phosphate dehydrogenase you have in your blood.'
+},
+];
+
+// Bacteriology tests-------------------------------------------------------------------
+
+private bactItem: Package[]= [
+{
+packageId: 1,
+packageName: 'Wound Swab Test',
+packagePrice: 500,
+packageDesc:'This test checks for bacteria or other organisms in a wound with the help of sterile swab. The test is used to find out if a wound is infected.'
+},
+{
+packageId: 2,
+packageName: 'High Vaginal Swab',
+packagePrice: 500,
+packageDesc:'HVS is a technique used to obtain a sample of discharge from the vagina. This is then sent for culture and sensitivity.'
+},
+{
+packageId: 3,
+packageName: 'Endocervical Swab Test',
+packagePrice: 500,
+packageDesc:'An endocervical gram stain checks for abnormal bacteria in or around the cervixAn endocervical gram stain can detect STIs.'
+},
+{
+packageId: 4,
+packageName: 'Eye Swab Test',
+packagePrice: 500,
+packageDesc:'This test checks for superficial bacterial eye infections or presence of organisms causing ophthalmia neonatorum in neonates.'
+},
+{
+packageId: 5,
+packageName: 'Mouth Swab Test',
+packagePrice: 500,
+packageDesc:'A mouth swab drug test is a screening test used to detect substance use. Its also referred to as a saliva drug test or oral fluids drug.'
+},
+{
+packageId: 6,
+packageName: 'Nose Swab Test',
+packagePrice: 500,
+packageDesc:'This is a test that checks for viruses and bacteria in the secretions from the back of your nose that cause respiratory infections.'
+},
+{
+packageId: 7,
+packageName: 'Skin Swab Test',
+packagePrice: 500,
+packageDesc:'This tests for germs that affect your skin, fingernails, or toenails.A sample of skin is added to a substance that promotes germ growth.'
+},
+{
+packageId: 8,
+packageName: 'Genital Swab Test',
+packagePrice: 500,
+packageDesc:'A sterile swab is used to take the samples from the genitals of the patient to check for any infection, bacteria or any disease.'
+},
+{
+packageId: 9,
+packageName: 'Throat Swab Test',
+packagePrice: 500,
+packageDesc:'This is a test that checks for viruses and bacteria in the secretions from the back of your mouth that cause respiratory infections.'
+},
+{
+packageId: 10,
+packageName: 'Ear Swab Test',
+packagePrice: 500,
+packageDesc:'This is a test that checks for germs in the fluid sample obtained from the patients ear that can cause different infections.'
+},
+{
+packageId: 11,
+packageName: 'Urine for Microscopy and Culture Test',
+packagePrice: 500,
+packageDesc:'This test detects bacteria in your urine. This test can find and identify the germs that cause a urinary tract infection.'
+},
+{
+packageId: 12,
+packageName: 'Sputum for Tb Test',
+packagePrice: 500,
+packageDesc:'This test find germs such as TB bacteria that can cause an infection. A sample of sputum is added to a substance that promotes bacteria growth.'
+},
+{
+packageId: 13,
+packageName: 'Urine for Tb Test',
+packagePrice: 500,
+packageDesc:'Urine for TB test finds active tuberculosis (TB) infection from the urine sample. Advanced UTTB may cause loss of kidney function.'
+},
+{
+packageId: 14,
+packageName: 'Nail Clippings Test',
+packagePrice: 500,
+packageDesc:'In this test a clipping of 2-3 mm long from all ten fingernails are collected which are further examined to check for the infection.'
+},
+{
+packageId: 15,
+packageName: 'Nail Scraping Test',
+packagePrice: 500,
+packageDesc:'In Nail scraping test sample of debris are collected that are evaluated under a microscope for the dignosis of certain nail infections.'
+},
+{
+packageId: 16,
+packageName: 'Nail Scraping Test',
+packagePrice: 500,
+packageDesc:'In Nail scraping test sample of debris are collected that are evaluated under a microscope for the dignosis of certain nail infections.'
+},
+{
+packageId: 17,
+packageName: 'Skin Scraping Test',
+packagePrice: 500,
+packageDesc:'In Skin scraping test sample of skin cells are collected that are evaluated under a microscope for the dignosis of certain skin infections.'
+},
+];
     public count = 0;
     private cartItem: Package[] = [];
 
@@ -1339,6 +1654,18 @@ packageDesc:'This test measures the amount of dissolved substances such as sodiu
     getroutineItems()
     {
       return this.routineItem;
+    }
+    geturineItems()
+    {
+      return this.urineItem;
+    }
+    gethaemoItems()
+    {
+      return this.haemoItem;
+    }
+    getbactItems()
+    {
+      return this.bactItem;
     }
 
 
